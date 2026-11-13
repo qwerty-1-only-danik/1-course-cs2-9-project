@@ -1,0 +1,37 @@
+/* ==================== Мобильная адаптация (до 768px) ==================== */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #home, .dishes-row, .steps-grid, #newsletter, .footer-top, .footer-bottom {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .home-content, .home-image-box, .dish-card, .promo-card, .dishes-quote, .step-item, .newsletter-form {
+        width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .dish-card, .promo-card, .step-item {
+        box-sizing: border-box;
+    }
+
+    .footer-bottom {
+        gap: 15px;
+        text-align: center;
+    }
+}
